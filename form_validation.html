@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="form.js"></script>
+    <style>
+        .flex-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-box">
+        <h1>Registration Form</h1>
+        <div class="item">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div class="item">
+            <label for="username">UserName</label>
+            <input type="text" id="uname">
+        </div>
+        <div class="item">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+        </div>
+        <div class="item">
+            <label for="name">Phone</label>
+            <input type="number" id="phone">
+        </div>
+        <div class="item">
+            <input type="button" value="Submit" onclick="validate()">
+        </div>
+    </div>
+</body>
+</html>
